@@ -1,5 +1,5 @@
 # tinysat
-TinySAT is a miniature model for remote sensing and earth observation to investiage change detection and forecasting
+TinySAT is a miniature model for remote sensing and earth observation to investiage change detection and forecasting.
 
 ## Overview
 
@@ -10,7 +10,7 @@ This project involves a satellite and ground segment system designed for capturi
 ## Satellite Segment
 
 ### Physical Setup:
-- **Seeed Studio XIAO ESP32-S3 Sense MCU** (Microcontroller)
+- **Seeed Studio XIAO ESP32-S3 Sense MCU**
 - **VL53L8CX ToF (Time-of-Flight) Sensor**
 
 ### Wiring Setup:
@@ -20,8 +20,8 @@ This project involves a satellite and ground segment system designed for capturi
    - Connect the **GND** pin from the XIAO ESP32-S3 to the **GND** pin on the VL53L8CX sensor.
 
 2. **I2C Connections:**
-   - Connect the **SDA** pin from the VL53L8CX sensor to **Pin 5** on the XIAO ESP32-S3.
-   - Connect the **SCL** pin from the VL53L8CX sensor to **Pin 4** on the XIAO ESP32-S3.
+   - Connect the **SDA** pin from the VL53L8CX sensor to **Pin 4** on the XIAO ESP32-S3.
+   - Connect the **SCL** pin from the VL53L8CX sensor to **Pin 5** on the XIAO ESP32-S3.
 
 Make sure all connections are secure and properly aligned.
 
@@ -77,7 +77,3 @@ Make sure all connections are secure and properly aligned.
   - **3D Plot**: Visualizes the depth data from the ToF sensor in a 3D plot.
 
 To view the web client, open [http://localhost:8000](http://localhost:8000) in your browser.
-
----
-
-This version has the correct hardware components and a more detailed explanation of the wiring setup.
